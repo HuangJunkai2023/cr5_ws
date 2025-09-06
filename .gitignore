@@ -101,3 +101,15 @@ doc/latex/
 # 系统文件
 .directory
 *.desktop
+
+# GraspNet 相关文件
+**/__pycache__/**
+*.ipynb
+**/.ipynb_checkpoints/**
+*.npy
+*.npz
+**/grasp_label*/**
+**/log*/**
+**/dump*/**
+logs/
+dataset/tolerance
