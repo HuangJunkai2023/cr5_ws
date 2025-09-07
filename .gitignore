@@ -2,7 +2,12 @@
 build/
 install/
 log/
+# 模型文件
+*.pt
 
+# 具体排除的模型文件
+sam_b.pt
+yolov8s-world.pt
 # Python 编译文件
 __pycache__/
 *.py[cod]
@@ -113,3 +118,6 @@ doc/latex/
 **/dump*/**
 logs/
 dataset/tolerance
+
+# Mask generate test results
+src/mask_generate/advanced_test_results/
